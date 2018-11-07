@@ -1,0 +1,13 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+    <h1>
+        Welcome to {{ title }}!
+    </h1>
+    <h2>{{a+b}}</h2>
+    <hr />
+    <button [disabled]="listo" (click)="hacerAlgo()">Clickme</button>
+    <input type="text" placeholder="Tu Nombre" [(ngModel)]="nombre" />
+    <input type="text" placeholder="Tu Nombre 2" [(ngModel)]="nombre2" />
+    <br /> Mi nombre es {{nombre +' '+ nombre2}}
+
+</div>
